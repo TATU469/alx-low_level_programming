@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - descibes function
+ * main - descibes main function
  *
  * Return: returns 0 when the code is correct
  */
@@ -12,7 +12,7 @@ int main(void)
 	for (i = 0; i <= 9; i++)
 	{
 		putchar(i + '0');
-	if (i != 9)
+		if (i != 9)
 		{
 			putchar(',');
 			putchar(' ');
@@ -20,5 +20,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
 }
+
