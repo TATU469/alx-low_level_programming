@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - descibes main function
  *
  * Return: returns 0 when the code is correct
