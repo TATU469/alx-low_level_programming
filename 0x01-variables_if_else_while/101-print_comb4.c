@@ -11,22 +11,24 @@ int main(void)
 
 	int k;
 
-	int o;
+	int m;
 
 	for (i = 0; i < 10; i++)
 	{
 		for (k = 1; k < 10; k++)
 		{
-			for (o = 2; o < 10 o++)
-			if (i < k && k < o)
+			for (m = 2; m < 10; m++)
 			{
-				putchar(i + '0');
-				putchar(k + '0');
-				putchar(o + '0');
-				if (i + k + o != 24)
+				if (i < k && k < m)
 				{
-					putchar(',');
-					putchar(' ');
+					putchar(i + '0');
+					putchar(k + '0');
+					putchar(m + '0');
+					if (i + k + m != 24)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
